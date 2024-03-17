@@ -1,0 +1,138 @@
+#login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../background.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+#loginForm{
+    height:400px;
+    width:350px;
+    background-color: rgba(0, 0, 0,0.9);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login_form_heading{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(182, 179, 179);
+}
+
+#login_form_heading p{
+    font-size: 25px;
+    color:white
+}
+
+#login_form_body{
+    height: calc(100% - 50px);
+    width: 100%;
+}
+
+#email{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#other_label_email{
+    font-size: 25px;
+    position: absolute;
+    color:white;
+    top:250px;
+    left:630px;
+    z-index: 0;
+    transition: 0.2s all;
+}
+
+#label_email{
+    font-size: 20px;
+    position: absolute;
+    color:grey;
+    top:290px;
+    left:650px;
+    z-index: 0;
+    transition: 0.2s all;
+}
+
+#input_email{
+    height: 40px;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color:grey;
+    position: relative;
+    z-index: 1;
+}
+
+#password{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#other_label_password{
+    font-size: 25px;
+    position: absolute;
+    color:white;
+    top:350px;
+    left:630px;
+    z-index: 0;
+    transition: 0.2s all;
+}
+
+#label_password{
+    font-size: 20px;
+    position: absolute;
+    color:grey;
+    top:390px;
+    left:650px;
+    z-index: 0;
+    transition: 0.2s all;
+}
+
+#input_password{
+    padding: 0;
+    height: 40px;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color:grey;
+    position: relative;
+    z-index: 1;
+}
+
+#submit_area{
+    height:100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit_button{
+    height:40px;
+    width: 60%;
+    background-color: grey;
+    color: white;
+    border-radius:7px;
+    cursor: pointer;
+}

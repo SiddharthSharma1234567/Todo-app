@@ -1,0 +1,99 @@
+#task_component {
+  width: calc(100vw - 250px);
+  position: absolute;
+  right: 0;
+}
+
+#task_input_area {
+  height: 50px;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#task_input {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+  color: grey;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+#task_area {
+    height: 600px;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 20px;
+    overflow-y: auto;
+    padding-right: 12px;
+    position: relative;
+  }
+  
+  #task_area::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  #task_area::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
+  
+  #task_area::-webkit-scrollbar-track:hover {
+    background-color: #f5f5f5;
+  }
+  
+  #task_area::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+
+#task_area_tasks {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  margin-bottom: 7px;
+}
+
+#isCompletedIcon1 {
+  color: #3cff00;
+  width: 23px;
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid black;
+    border-radius: 100%;
+}
+
+#isCompletedIcon2 {
+    color: white;
+    width: 23px;
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+#no_task{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#no_task p{
+  font-size: 25px;
+  text-decoration: underline;
+}
